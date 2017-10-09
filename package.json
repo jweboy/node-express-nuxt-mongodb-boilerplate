@@ -5,6 +5,7 @@
   "author": "jweboy <1259524459@qq.com>",
   "private": true,
   "scripts": {
+    "progress": "babel-node server",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -13,12 +14,17 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "chalk": "^2.1.0",
     "element-ui": "^1.4.6",
+    "express": "^4.16.1",
     "nuxt": "^1.0.0-rc11"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-plugin-component": "^0.10.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
