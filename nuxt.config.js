@@ -24,6 +24,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['axios', 'element-ui'],
     analyze: false,
     babel: {
       plugins: [

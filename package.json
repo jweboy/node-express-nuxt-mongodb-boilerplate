@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "chalk": "^2.1.0",
     "element-ui": "^1.4.6",
     "express": "^4.16.1",
