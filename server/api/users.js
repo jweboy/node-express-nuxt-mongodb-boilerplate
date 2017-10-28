@@ -1,11 +1,11 @@
 const { Router } = require('express')
-const { getAllGoods } = require('../models/goods')
+const { getAllUsers } = require('../models/users')
 const route = Router()
 
 route.get('/', (req, res, next) => {
-  getAllGoods()
-    .then((data) => {
-      console.log(data)
+const { query: { pageNumber }} = req
+  getAllUsers(pageNumber)
+    .then(data => {
       res.send(data)
     })
     .catch(next)

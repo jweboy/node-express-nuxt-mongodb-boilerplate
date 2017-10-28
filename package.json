@@ -5,6 +5,7 @@
   "author": "jweboy <1259524459@qq.com>",
   "private": true,
   "scripts": {
+    "nodemon": "nodemon -w ./server/index.js -w ./nuxt.config.js ./server/index.js",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -15,9 +16,14 @@
   "dependencies": {
     "axios": "^0.16.2",
     "chalk": "^2.1.0",
+    "deployd": "^1.0.0",
     "element-ui": "^1.4.6",
     "express": "^4.16.1",
-    "nuxt": "^1.0.0-rc11"
+    "mongodb": "^2.2.33",
+    "mongolass": "^3.1.5",
+    "mongoose": "^4.12.3",
+    "nuxt": "^1.0.0-rc11",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -29,6 +35,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.1"
   }
 }
