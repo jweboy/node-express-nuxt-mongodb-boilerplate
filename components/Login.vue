@@ -26,7 +26,7 @@
 export default {
   methods: {
     onSubmit() {
-      this.$refs.loginForm.$router.replace('/manage/goods')
+      this.$refs.loginForm.$router.replace('/manage')
     }
   }
 }

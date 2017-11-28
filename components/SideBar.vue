@@ -5,31 +5,37 @@
 </style>
 
 <template>
-  <el-menu :default-active="activeIndex" class="el-menu-vertical-demo sidebar" @select="handleSelect">
-    <el-menu-item index="/manage/goods">
-      <i class="el-icon-message"></i>商品表
-    </el-menu-item>
-    <el-menu-item index="/manage/users">
-      <i class="el-icon-menu"></i>用户表
-    </el-menu-item>
+  <el-menu 
+    :default-active="activeIndex"
+    :default-openeds="['wechat']"
+    @select="handleSelect"
+    class="el-menu-vertical-demo sidebar"
+  >
+  <el-submenu index="wechat">
+    <template slot="title">微信公众号</template>
+      <el-menu-item index="access_token">access_token</el-menu-item>
+      <el-menu-item index="custom_menu">自定义菜单</el-menu-item>
+    </el-submenu>
+    <el-menu-item index="goods">商品表</el-menu-item>
+    <el-menu-item index="users">用户表</el-menu-item>
   </el-menu>
 </template>
 
 <script>
-const PATH = '/manage'
+const PATH = '/manage';
 export default {
   beforeMount() {
-    this.$data.activeIndex = `${PATH}/users`
+    this.$data.activeIndex = `${PATH}/wechat`
   },
   data() {
     return {
-      activeIndex: `${PATH}/goods`
-    }
+      activeIndex: `${PATH}/wechat`
+    };
   },
   methods: {
-    handleSelect(index) {
-      this.$router.push(index)
+    handleSelect(key) {
+      this.$router.push(`${PATH}/${key}`)
     }
   }
-}
+};
 </script>
