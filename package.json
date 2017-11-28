@@ -1,5 +1,5 @@
 {
-  "name": "node-express-nuxt-mongodb-boilerplate",
+  "name": "node-koa-nuxt-mongodb-boilerplate",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "jweboy <1259524459@qq.com>",
@@ -17,7 +17,7 @@
     "axios": "^0.16.2",
     "chalk": "^2.1.0",
     "deployd": "^1.0.0",
-    "element-ui": "^1.4.6",
+    "element-ui": "1.4.11",
     "koa": "^2.4.1",
     "koa-router": "^7.3.0",
     "mongodb": "^2.2.33",
