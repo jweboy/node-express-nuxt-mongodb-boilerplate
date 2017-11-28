@@ -1,10 +1,10 @@
 const { Router } = require('express')
-const { getAllUsers } = require('../models/users')
+const { getPageUsers } = require('../models/users')
 const route = Router()
 
 route.get('/', (req, res, next) => {
-const { query: { pageNumber }} = req
-  getAllUsers(pageNumber)
+  const { query: { pageNumber } } = req
+  getPageUsers(pageNumber)
     .then(data => {
       res.send(data)
     })

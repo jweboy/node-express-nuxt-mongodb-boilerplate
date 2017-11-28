@@ -4,11 +4,11 @@ const port = process.env.PORT || 3000
 const isProd = process.env.NODE_ENV === 'production'
 const config = require('../nuxt.config')
 const http = require('http')
-const io = require('socket.io')
+// const io = require('socket.io')
 const dpd = require('deployd')
 const api = require('./api')
 const app = express()
-const server = http.createServer(app)
+// const server = http.createServer(app)
 
 const nuxt = new Nuxt(config)
 
