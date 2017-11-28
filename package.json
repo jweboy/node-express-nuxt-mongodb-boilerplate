@@ -18,12 +18,12 @@
     "chalk": "^2.1.0",
     "deployd": "^1.0.0",
     "element-ui": "^1.4.6",
-    "express": "^4.16.1",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
     "mongodb": "^2.2.33",
     "mongolass": "^3.1.5",
     "mongoose": "^4.12.3",
-    "nuxt": "^1.0.0-rc11",
-    "socket.io": "^2.0.4"
+    "nuxt": "^1.0.0-rc11"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
