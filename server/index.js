@@ -1,20 +1,20 @@
 const { Nuxt, Builder } = require('nuxt')
-const Koa = require('koa')
-const Router = require('koa-router')
-const http = require('http')
-const dpd = require('deployd')
+const express = require('express')
+// const http = require('http')
+// const dpd = require('deployd')
 const api = require('./api')
+// const server = http.createServer(app)
 
 async function startApp() {
-  const app = new Koa()
-  const router = new Router()
+  // initial basic variable
+  const app = express()
   const port = process.env.PORT || 3000
   const host = process.env.HOST || '127.0.0.1'
-  // const server = http.createServer(app)
+  const isProd = process.env.NODE_ENV === 'production'
 
   // Import and set Nuxt.js options
   const config = require('../nuxt.config')
-  config.dev = !(app.env === 'production')
+  config.dev = !isProd
 
   // Instanceiate Nuxt.js
   const nuxt = new Nuxt(config)
@@ -24,29 +24,27 @@ async function startApp() {
     const builder = new Builder(nuxt)
     await builder.build()
   }
+
+  // Set request api 
+  app.use('/api', api)
+
   // Set nuxt render
-  app.use(async (ctx, next) => {
-    await next()
-    ctx.status = 200 // koa defaults to 404 when it sees that status is unset.
+  app.use(nuxt.render)
+  // app.use(async (req, res, next) => {
+  //   await next()
+  //   // res.writeHead(200)
 
-    return new Promise((resolve, reject) => {
-      ctx.res.on('close', resolve)
-      ctx.res.on('finish', resolve)
-      nuxt.render(ctx.req, ctx.res, promise => {
-        // nuxt.render passes a rejected promise into callback on error.
-        promise
-          .then(resolve)
-          .catch(reject)
-      })
-    })
-  })
-
-  // router.get('/api', (ctx, next) => {
-  //   console.log(ctx)
+  //   return new Promise((resolve, reject) => {
+  //     res.on('close', resolve)
+  //     res.on('finish', resolve)
+  //     nuxt.render(req, res, promise => {
+  //       // nuxt.render passes a rejected promise into callback on error.
+  //       promise
+  //         .then(resolve)
+  //         .catch(reject)
+  //     })
+  //   })
   // })
-  //* set api 
-  // app.use('/api', () => api)
-
 
   // io.listen(server, {
   //   'log level': 0
@@ -55,9 +53,9 @@ async function startApp() {
   //   socketIo: io, // if not provided, attach will create one for you.
   //   env: process.env.NODE_ENV,
   //   db: {
-  //     host: 'localhost',
-  //     port: 27017,
-  //     name: 'test-app'
+  //   host: 'localhost',
+  //   port: 27017,
+  //   name: 'test-app'
   //   }
   // })
   // After attach, express can use server.handleRequest as middleware
@@ -71,13 +69,14 @@ async function startApp() {
   // server.on('error', function (err) {
   //   console.error(err)
   //   process.nextTick(function () { // Give the server a chance to return an error
-  //     process.exit()
+  //   process.exit()
   //   })
   // })
 
   //* Listen the server
-  app.listen(port, host)
-  console.log(`Server listening on port ${host}:${port}!`)
+  app.listen(port, () => {
+    console.log(`Server listening on port ${host}:${port}!`)
+  })
 }
 
 startApp()
