@@ -1,5 +1,5 @@
 {
-  "name": "node-koa-nuxt-mongodb-boilerplate",
+  "name": "node-express-nuxt-mongodb-boilerplate",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "jweboy <1259524459@qq.com>",
@@ -18,16 +18,18 @@
     "chalk": "^2.1.0",
     "deployd": "^1.0.0",
     "element-ui": "1.4.11",
-    "koa": "^2.4.1",
     "koa-router": "^7.3.0",
+    "moment": "^2.19.2",
     "mongodb": "^2.2.33",
     "mongolass": "^3.1.5",
     "mongoose": "^4.12.3",
-    "nuxt": "^1.0.0-rc11"
+    "nuxt": "^1.0.0-rc11",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-plugin-component": "^0.10.1",
+    "clipboard": "^1.7.1",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",

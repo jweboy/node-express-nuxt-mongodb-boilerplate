@@ -48,7 +48,11 @@ module.exports = {
       }
     }
   },
-  plugins: ['~plugins/element-ui'],
+  plugins: [
+    '~plugins/element-ui',
+    '~plugins/moment',
+    '~plugins/clipboard'
+  ],
   /** Add server middleware
   ** Nuxt.js uses `connect` module as server
   ** So most of express middleware works with nuxt.js server middleware
