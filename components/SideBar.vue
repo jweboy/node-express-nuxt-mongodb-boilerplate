@@ -25,7 +25,7 @@
 const PATH = '/manage';
 export default {
   beforeMount() {
-    this.$data.activeIndex = `${PATH}/wechat`
+    this.$data.activeIndex = `${PATH}/access_token`
   },
   data() {
     return {
