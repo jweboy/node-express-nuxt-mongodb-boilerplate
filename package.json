@@ -27,6 +27,8 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "@nuxtjs/axios": "^4.5.0",
+    "@nuxtjs/proxy": "^1.1.2",
     "babel-eslint": "^7.2.3",
     "babel-plugin-component": "^0.10.1",
     "clipboard": "^1.7.1",
@@ -39,5 +41,11 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "nodemon": "^1.12.1"
+  },
+  "config": {
+    "nuxt":{
+      "host": "localhost",
+      "port": "5000"
+    }
   }
 }

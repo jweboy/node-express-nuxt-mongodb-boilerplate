@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'node-express-nuxt-mongodb-boilerplate',
+    title: 'node-nuxt-mongodb-boilerplate',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -53,11 +53,24 @@ module.exports = {
     '~plugins/moment',
     '~plugins/clipboard'
   ],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/proxy'
+  ],
+  proxy: [
+    [
+      '/api',
+      {
+        target: 'http://138.197.120.135:4000/', // api主机
+        pathRewrite: { '^/api': '/' }
+      }
+    ]
+  ]
   /** Add server middleware
   ** Nuxt.js uses `connect` module as server
   ** So most of express middleware works with nuxt.js server middleware
   */
-  serverMiddleware: [
-    '~server/api'
-  ]
+  // serverMiddleware: [
+  //   '~server/api'
+  // ]
 }
