@@ -33,11 +33,13 @@ export default {
 
 .main {
   height: calc(100vh - 60px);
+  overflow: hidden;
 }
 
 .main__left,
 .main__right {
   height: 100%;
+  overflow-y: scroll;
 }
 
 .title {

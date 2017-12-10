@@ -9,7 +9,11 @@
 
 <template>
   <div>
-    <div class="token">
+    <div 
+      class="token" 
+      v-loading="waitLoading"
+      element-loading-text="拼命加载中"
+    >
       <el-form :label-position="labelPosition">
         <el-form-item label="access_token">
           <el-tooltip content="点击复制" placement="top">
@@ -30,6 +34,7 @@
   export default {
     data() {
       return {
+        waitLoading: false,
         accessToken: {
           access_token: '',
           expires_time: ''
@@ -39,8 +44,16 @@
     },
     methods: {
       async asyncGetData() {
-        const result = await axios.get('/api/accessToken')
-        this.accessToken = result.data
+        this.accessToken = await axios.get('/api/wechat/accessToken')
+          .then(({ data }) => {
+            this.waitLoading = false
+            return data
+          })
+          .catch(err => {
+            this.waitLoading = false
+            this.$message.error('出错了,查看console')
+            console.error(err)
+          })
       },
       setClipboard() { // TODO 这里会有重复的问题 其次需要增加message提示
         const _success = (e) => {
@@ -57,6 +70,7 @@
       }
     },
     mounted() {
+      this.waitLoading = true
       this.asyncGetData()
       this.setClipboard()
     }
