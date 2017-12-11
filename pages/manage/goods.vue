@@ -28,7 +28,11 @@
             <a :href="'https://'+props.row.picture" target="_blank">{{props.row.picture || '-'}}</a>
           </el-form-item>
           <el-form-item label="缩略图">
-            <a :href="'https://'+props.row.picture" target="_blank">{{props.row.thumbnail || '-'}}</a>
+            <ul :v-if="props.row.thumbnail.length">
+              <span>{{props.row.thumbnail.length}}张</span>
+              <!-- <span :v-for="(item, index) in props.row.thumbnail">{{index}}</span> -->
+            </ul>
+            <!-- <a :href="'https://'+props.row.picture" target="_blank">{{props.row.thumbnail || '-'}}</a> -->
           </el-form-item>
         </el-form>
       </template>
@@ -56,7 +60,7 @@
       </el-table-column>
     </el-table>
     <div class="block pagination">
-      <el-pagination layout="prev, pager, next" :total="30" @size-change="handleSizeChange" @current-change="handleCurrentChange">
+      <el-pagination layout="prev, pager, next" :total="total" @size-change="handleSizeChange" @current-change="handleCurrentChange">
       </el-pagination>
     </div>
     <el-dialog title="编辑用户" :visible.sync="dialogVisible" size="tiny">
@@ -75,9 +79,10 @@ export default {
   methods: {
     async getTableData(pageNumber) {
       await axios.get(`/api/goods?page=${pageNumber}`)
-        .then(({ data }) => {
+        .then(({data: { data, total }}) => {
           this.waitLoading = false
           this.tableData = data
+          this.total = total
         })
         .catch(err => {
           this.waitLoading = false
@@ -125,7 +130,8 @@ export default {
     return {
       dialogVisible: false,
       tableData: [],
-      waitLoading: false
+      waitLoading: false,
+      total: 0
     };
   },
   mounted() {
