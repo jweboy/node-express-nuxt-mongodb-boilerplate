@@ -28,11 +28,15 @@
             <a :href="'https://'+props.row.picture" target="_blank">{{props.row.picture || '-'}}</a>
           </el-form-item>
           <el-form-item label="缩略图">
-            <ul :v-if="props.row.thumbnail.length">
-              <span>{{props.row.thumbnail.length}}张</span>
-              <!-- <span :v-for="(item, index) in props.row.thumbnail">{{index}}</span> -->
-            </ul>
-            <!-- <a :href="'https://'+props.row.picture" target="_blank">{{props.row.thumbnail || '-'}}</a> -->
+            <div v-if="props.row.thumbnail.length">
+                <a 
+                  v-for="(item, index) in props.row.thumbnail" 
+                  :key="item.tid"
+                  :href="'https://'+item.url"
+                  target="_blank"
+                >{{item.url}}<br />
+                </a>
+            </div>
           </el-form-item>
         </el-form>
       </template>
