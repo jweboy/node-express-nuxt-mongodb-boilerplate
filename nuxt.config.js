@@ -18,7 +18,7 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   css: [
-    'element-ui/lib/theme-default/index.css'
+    'element-ui/lib/theme-chalk/index.css'
   ],
   /*
   ** Build configuration
@@ -32,7 +32,7 @@ module.exports = {
           [
             {
               'libraryName': 'element-ui',
-              'styleLibraryName': 'theme-default'
+              'styleLibraryName': 'theme-chalk'
             }
           ]
         ]]

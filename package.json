@@ -17,7 +17,7 @@
     "axios": "^0.16.2",
     "chalk": "^2.1.0",
     "deployd": "^1.0.0",
-    "element-ui": "1.4.11",
+    "element-ui": "^2.0.8",
     "koa-router": "^7.3.0",
     "moment": "^2.19.2",
     "mongodb": "^2.2.33",
@@ -43,7 +43,7 @@
     "nodemon": "^1.12.1"
   },
   "config": {
-    "nuxt":{
+    "nuxt": {
       "host": "localhost",
       "port": "5000"
     }

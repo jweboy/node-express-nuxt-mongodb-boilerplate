@@ -7,7 +7,15 @@
 </style>
 
 <template>
-  <el-menu :default-active="activeIndex" theme="dark" class="el-menu-demo topbar" mode="horizontal" @select="handleSelect">
+  <el-menu
+    :default-active="activeIndex"
+    background-color="#545c64"
+    text-color="#fff"
+    active-text-color="#ffd04b"
+    class="el-menu-demo topbar"
+    mode="horizontal"
+    @select="handleSelect"
+  >
     <el-menu-item index="1">待定</el-menu-item>
     <el-submenu index="2">
       <template slot="title">个人中心</template>
