@@ -1,0 +1,51 @@
+{
+  "name": "vue-nuxt-mongodb-backstage",
+  "version": "1.0.0",
+  "description": "this is a admin backstage with nuxt.js",
+  "author": "jweboy <1259524459@qq.com>",
+  "private": true,
+  "scripts": {
+    "nodemon": "nodemon -w ./server/index.js -w ./nuxt.config.js ./server/index.js",
+    "dev": "nuxt",
+    "build": "nuxt build --webpackmonitor",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chalk": "^2.1.0",
+    "deployd": "^1.0.0",
+    "element-ui": "^2.0.8",
+    "koa-router": "^7.3.0",
+    "moment": "^2.19.2",
+    "mongolass": "^3.1.5",
+    "mongoose": "^4.12.3",
+    "nuxt": "^1.0.0-gh-ae754af",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^4.5.0",
+    "@nuxtjs/proxy": "^1.1.2",
+    "@nuxtjs/webpackmonitor": "^0.1.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-component": "^0.10.1",
+    "clipboard": "^1.7.1",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": "5000"
+    }
+  }
+}

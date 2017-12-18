@@ -1,0 +1,34 @@
+{
+  "button": [
+    {
+      "type": "view",
+      "name": "github",
+      "url": "http://www.github.com/jweboy/"
+    },
+    {
+      "type": "view",
+      "name": "今日推荐",
+      "url": "http://tv.cnr.cn/jrtj/"
+    },
+    {
+      "name": "小工具",
+      "sub_button": [
+        {
+          "type": "scancode_waitmsg",
+          "name": "扫一扫",
+          "key": "scancode"
+        },
+        {
+          "type": "pic_sysphoto",
+          "name": "系统拍照发图",
+          "key": "take_photo"
+        },
+        {
+          "type": "location_select",
+          "name": "发送位置",
+          "key": "send_location"
+        }
+      ]
+    }
+  ]
+}

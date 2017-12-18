@@ -1,0 +1,2432 @@
+[
+  {
+    "timeStamp": 1513260553164,
+    "time": 40673,
+    "hash": "5154b6462d72ae080972",
+    "errors": [],
+    "size": 3565326,
+    "assets": [
+      {
+        "name": "pages/manage.da6715050ae3dcd4202f.js.map",
+        "chunks": [
+          0
+        ],
+        "size": 7656
+      },
+      {
+        "name": "fonts/element-icons.2fad952.woff",
+        "chunks": [],
+        "size": 6164
+      },
+      {
+        "name": "pages/manage.da6715050ae3dcd4202f.js",
+        "chunks": [
+          0
+        ],
+        "size": 4596,
+        "minified": true
+      },
+      {
+        "name": "pages/index.fdeff140f35d004ae015.js",
+        "chunks": [
+          1
+        ],
+        "size": 1637,
+        "minified": true
+      },
+      {
+        "name": "pages/manage/access_token.3959afe7d6fad8bdd201.js",
+        "chunks": [
+          2
+        ],
+        "size": 2522,
+        "minified": true
+      },
+      {
+        "name": "pages/manage/users.4e4d6698c72b12150ed5.js",
+        "chunks": [
+          3
+        ],
+        "size": 2974,
+        "minified": true
+      },
+      {
+        "name": "pages/manage/goods.89c592e386f62dc80f8f.js",
+        "chunks": [
+          4
+        ],
+        "size": 3901,
+        "minified": true
+      },
+      {
+        "name": "layouts/default.6f67d98cf9a36d7cbf7b.js",
+        "chunks": [
+          5
+        ],
+        "size": 1401,
+        "minified": true
+      },
+      {
+        "name": "pages/manage/custom_menu.7464d3ad9be9a28b5688.js",
+        "chunks": [
+          6
+        ],
+        "size": 1184,
+        "minified": true
+      },
+      {
+        "name": "common.9625e927693fd91563fb.js",
+        "chunks": [
+          7
+        ],
+        "size": 710369,
+        "minified": true
+      },
+      {
+        "name": "app.3195530e98853a3cfa67.js",
+        "chunks": [
+          8
+        ],
+        "size": 961395,
+        "minified": true
+      },
+      {
+        "name": "manifest.5154b6462d72ae080972.js",
+        "chunks": [
+          9
+        ],
+        "size": 1841,
+        "minified": true
+      },
+      {
+        "name": "LICENSES",
+        "chunks": [],
+        "size": 765
+      },
+      {
+        "name": "fonts/element-icons.6f0a763.ttf",
+        "chunks": [],
+        "size": 11040
+      },
+      {
+        "name": "pages/index.fdeff140f35d004ae015.js.map",
+        "chunks": [
+          1
+        ],
+        "size": 3771
+      },
+      {
+        "name": "pages/manage/access_token.3959afe7d6fad8bdd201.js.map",
+        "chunks": [
+          2
+        ],
+        "size": 5083
+      },
+      {
+        "name": "pages/manage/users.4e4d6698c72b12150ed5.js.map",
+        "chunks": [
+          3
+        ],
+        "size": 5499
+      },
+      {
+        "name": "pages/manage/goods.89c592e386f62dc80f8f.js.map",
+        "chunks": [
+          4
+        ],
+        "size": 6682
+      },
+      {
+        "name": "layouts/default.6f67d98cf9a36d7cbf7b.js.map",
+        "chunks": [
+          5
+        ],
+        "size": 1565
+      },
+      {
+        "name": "pages/manage/custom_menu.7464d3ad9be9a28b5688.js.map",
+        "chunks": [
+          6
+        ],
+        "size": 2020
+      },
+      {
+        "name": "common.9625e927693fd91563fb.js.map",
+        "chunks": [
+          7
+        ],
+        "size": 932141
+      },
+      {
+        "name": "app.3195530e98853a3cfa67.js.map",
+        "chunks": [
+          8
+        ],
+        "size": 864025
+      },
+      {
+        "name": "manifest.5154b6462d72ae080972.js.map",
+        "chunks": [
+          9
+        ],
+        "size": 2992
+      },
+      {
+        "name": "index.spa.html",
+        "chunks": [],
+        "size": 383
+      },
+      {
+        "name": "index.ssr.html",
+        "chunks": [],
+        "size": 132
+      },
+      {
+        "name": "vue-ssr-client-manifest.json",
+        "chunks": [],
+        "size": 23588
+      }
+    ],
+    "chunks": [
+      {
+        "size": 14255,
+        "files": [
+          "pages/manage.da6715050ae3dcd4202f.js",
+          "pages/manage.da6715050ae3dcd4202f.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./components/Topbar.vue",
+            "size": 1652,
+            "id": "0qpg"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-396fa1ba\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/MainBody.vue",
+            "size": 194,
+            "id": "21sK"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./components/Topbar.vue",
+            "size": 348,
+            "id": "5az4"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-396fa1ba\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./components/MainBody.vue",
+            "size": 267,
+            "id": "68ow"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./pages/manage.vue",
+            "size": 280,
+            "id": "76+O"
+          },
+          {
+            "name": "./pages/manage.vue",
+            "size": 1641,
+            "id": "BPiK"
+          },
+          {
+            "name": "./components/MainBody.vue",
+            "size": 1285,
+            "id": "CfwT"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-0502b946\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./components/Topbar.vue",
+            "size": 734,
+            "id": "QRPG"
+          },
+          {
+            "name": "./components/SideBar.vue",
+            "size": 1655,
+            "id": "Vhf/"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-0fdf62c4\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/SideBar.vue",
+            "size": 862,
+            "id": "WtmE"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-4df7d81e\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage.vue",
+            "size": 611,
+            "id": "YkT8"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./components/SideBar.vue",
+            "size": 372,
+            "id": "a8+2"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-0502b946\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/Topbar.vue",
+            "size": 402,
+            "id": "cpr8"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-396fa1ba\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/MainBody.vue",
+            "size": 863,
+            "id": "kNYP"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-4df7d81e\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage.vue",
+            "size": 862,
+            "id": "kcWx"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-0fdf62c4\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./components/SideBar.vue",
+            "size": 706,
+            "id": "ndhg"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-4df7d81e\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/manage.vue",
+            "size": 463,
+            "id": "tESN"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-0fdf62c4\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/SideBar.vue",
+            "size": 197,
+            "id": "tLQ0"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-0502b946\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/Topbar.vue",
+            "size": 861,
+            "id": "yZzm"
+          }
+        ]
+      },
+      {
+        "size": 5069,
+        "files": [
+          "pages/index.fdeff140f35d004ae015.js",
+          "pages/index.fdeff140f35d004ae015.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./pages/index.vue",
+            "size": 1082,
+            "id": "/TYz"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./pages/index.vue",
+            "size": 110,
+            "id": "HTtY"
+          },
+          {
+            "name": "./components/Login.vue",
+            "size": 1649,
+            "id": "IjOH"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-1cdc471e\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/Login.vue",
+            "size": 860,
+            "id": "LlAt"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-1cdc471e\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./components/Login.vue",
+            "size": 730,
+            "id": "hBdH"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-1cdc471e\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./components/Login.vue",
+            "size": 199,
+            "id": "l0lC"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./components/Login.vue",
+            "size": 212,
+            "id": "sEeB"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-f0a0f514\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/index.vue",
+            "size": 227,
+            "id": "xcIw"
+          }
+        ]
+      },
+      {
+        "size": 6223,
+        "files": [
+          "pages/manage/access_token.3959afe7d6fad8bdd201.js",
+          "pages/manage/access_token.3959afe7d6fad8bdd201.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./pages/manage/access_token.vue",
+            "size": 1677,
+            "id": "1/7X"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-3ebdb728\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/access_token.vue",
+            "size": 208,
+            "id": "4foy"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-3ebdb728\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/access_token.vue",
+            "size": 880,
+            "id": "7zw7"
+          },
+          {
+            "name": "./plugins/axios.js",
+            "size": 231,
+            "id": "YFWx"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-3ebdb728\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/manage/access_token.vue",
+            "size": 961,
+            "id": "Z2tF"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./pages/manage/access_token.vue",
+            "size": 2266,
+            "id": "zU44"
+          }
+        ]
+      },
+      {
+        "size": 7115,
+        "files": [
+          "pages/manage/users.4e4d6698c72b12150ed5.js",
+          "pages/manage/users.4e4d6698c72b12150ed5.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./pages/manage/users.vue",
+            "size": 1667,
+            "id": "1f82"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./pages/manage/users.vue",
+            "size": 2788,
+            "id": "EmTN"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-425dfbea\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/users.vue",
+            "size": 219,
+            "id": "Kr7e"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-425dfbea\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/users.vue",
+            "size": 872,
+            "id": "RtDQ"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-425dfbea\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/manage/users.vue",
+            "size": 1569,
+            "id": "sTzB"
+          }
+        ]
+      },
+      {
+        "size": 8389,
+        "files": [
+          "pages/manage/goods.89c592e386f62dc80f8f.js",
+          "pages/manage/goods.89c592e386f62dc80f8f.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-ff94a390\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/goods.vue",
+            "size": 872,
+            "id": "IJaM"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./pages/manage/goods.vue",
+            "size": 3211,
+            "id": "dumO"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-ff94a390\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/manage/goods.vue",
+            "size": 2422,
+            "id": "qSIY"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-ff94a390\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/goods.vue",
+            "size": 217,
+            "id": "xkbl"
+          },
+          {
+            "name": "./pages/manage/goods.vue",
+            "size": 1667,
+            "id": "yEyV"
+          }
+        ]
+      },
+      {
+        "size": 3298,
+        "files": [
+          "layouts/default.6f67d98cf9a36d7cbf7b.js",
+          "layouts/default.6f67d98cf9a36d7cbf7b.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-8f109c2c\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./layouts/default.vue",
+            "size": 240,
+            "id": "5rsX"
+          },
+          {
+            "name": "./layouts/default.vue",
+            "size": 1272,
+            "id": "Ma2J"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-8f109c2c\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./layouts/default.vue",
+            "size": 863,
+            "id": "rZGA"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-8f109c2c\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./layouts/default.vue",
+            "size": 923,
+            "id": "uP0W"
+          }
+        ]
+      },
+      {
+        "size": 3147,
+        "files": [
+          "pages/manage/custom_menu.7464d3ad9be9a28b5688.js",
+          "pages/manage/custom_menu.7464d3ad9be9a28b5688.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-30de5562\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/custom_menu.vue",
+            "size": 205,
+            "id": "9kKu"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-30de5562\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./pages/manage/custom_menu.vue",
+            "size": 878,
+            "id": "BmsJ"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-30de5562\",\"hasScoped\":true,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./pages/manage/custom_menu.vue",
+            "size": 758,
+            "id": "XPyd"
+          },
+          {
+            "name": "./pages/manage/custom_menu.vue",
+            "size": 1306,
+            "id": "Yvwl"
+          }
+        ]
+      },
+      {
+        "size": 1713373,
+        "files": [
+          "common.9625e927693fd91563fb.js",
+          "common.9625e927693fd91563fb.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/core-js/library/modules/_descriptors.js",
+            "size": 184,
+            "id": "+E39"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_ctx.js",
+            "size": 520,
+            "id": "+ZMJ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/web.dom.iterable.js",
+            "size": 969,
+            "id": "+tPU"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/promise.js",
+            "size": 88,
+            "id": "//Fk"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/boolean.js",
+            "size": 862,
+            "id": "/1q1"
+          },
+          {
+            "name": "./node_modules/vue/dist/vue.runtime.esm.js",
+            "size": 199034,
+            "id": "/5sW"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iterators.js",
+            "size": 21,
+            "id": "/bQp"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/symbol/iterator.js",
+            "size": 155,
+            "id": "/n6Q"
+          },
+          {
+            "name": "./node_modules/vue-router/dist/vue-router.esm.js",
+            "size": 62622,
+            "id": "/ocq"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/resize-event.js",
+            "size": 7237,
+            "id": "02w1"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_meta.js",
+            "size": 1558,
+            "id": "06OY"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/input-number.js",
+            "size": 17614,
+            "id": "0kY3"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gops.js",
+            "size": 42,
+            "id": "1kS7"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/mixins/focus.js",
+            "size": 193,
+            "id": "1oZe"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/settle.js",
+            "size": 757,
+            "id": "21It"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/enum.js",
+            "size": 883,
+            "id": "2Hbh"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_an-instance.js",
+            "size": 237,
+            "id": "2KxR"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/dom.js",
+            "size": 5368,
+            "id": "2kvA"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_uid.js",
+            "size": 162,
+            "id": "3Eo+"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/object.js",
+            "size": 860,
+            "id": "3MA9"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/string.js",
+            "size": 1134,
+            "id": "3PpN"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/core.get-iterator-method.js",
+            "size": 297,
+            "id": "3fs2"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/float.js",
+            "size": 945,
+            "id": "4LST"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_add-to-unscopables.js",
+            "size": 46,
+            "id": "4mcu"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_defined.js",
+            "size": 162,
+            "id": "52gC"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/regexp.js",
+            "size": 879,
+            "id": "56D2"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/symbol.js",
+            "size": 87,
+            "id": "5QVw"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+            "size": 357,
+            "id": "5VQ+"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/scrollbar-width.js",
+            "size": 990,
+            "id": "6Twh"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/pattern.js",
+            "size": 1019,
+            "id": "6qr9"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_an-object.js",
+            "size": 154,
+            "id": "77Pl"
+          },
+          {
+            "name": "./node_modules/axios/lib/adapters/xhr.js",
+            "size": 6175,
+            "id": "7GwW"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/popup/index.js",
+            "size": 7253,
+            "id": "7J9s"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_global.js",
+            "size": 369,
+            "id": "7KvD"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_is-array.js",
+            "size": 147,
+            "id": "7UMu"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/index.js",
+            "size": 740,
+            "id": "7c3y"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_microtask.js",
+            "size": 1900,
+            "id": "82Mu"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_redefine.js",
+            "size": 37,
+            "id": "880/"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iter-create.js",
+            "size": 526,
+            "id": "94VQ"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/object/define-property.js",
+            "size": 215,
+            "id": "9bBU"
+          },
+          {
+            "name": "./node_modules/async-validator/es/messages.js",
+            "size": 1722,
+            "id": "9xJI"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/get-iterator.js",
+            "size": 93,
+            "id": "BO1k"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/symbol/index.js",
+            "size": 240,
+            "id": "BwfY"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/define-property.js",
+            "size": 103,
+            "id": "C4MV"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.promise.js",
+            "size": 9255,
+            "id": "CXw9"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.keys.js",
+            "size": 225,
+            "id": "Cdx3"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_has.js",
+            "size": 120,
+            "id": "D2L2"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/buildURL.js",
+            "size": 1576,
+            "id": "DQCr"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/aria-dialog.js",
+            "size": 3312,
+            "id": "DQJY"
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/extends.js",
+            "size": 544,
+            "id": "Dd8w"
+          },
+          {
+            "name": "(webpack)/buildin/global.js",
+            "size": 509,
+            "id": "DuR2"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/shared.js",
+            "size": 132,
+            "id": "E/in"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iter-step.js",
+            "size": 86,
+            "id": "EGZi"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/checkbox.js",
+            "size": 14898,
+            "id": "EKTV"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es7.promise.finally.js",
+            "size": 763,
+            "id": "EqBC"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_is-object.js",
+            "size": 110,
+            "id": "EqjI"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/required.js",
+            "size": 698,
+            "id": "F61X"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/required.js",
+            "size": 378,
+            "id": "F8xi"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_core.js",
+            "size": 122,
+            "id": "FeBl"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/createError.js",
+            "size": 625,
+            "id": "FtD3"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+            "size": 2245,
+            "id": "GHBc"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/progress.js",
+            "size": 12311,
+            "id": "GegP"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/input.js",
+            "size": 19957,
+            "id": "HJMx"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/clickoutside.js",
+            "size": 2288,
+            "id": "ISYW"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/type.js",
+            "size": 588,
+            "id": "IUBM"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-keys-internal.js",
+            "size": 537,
+            "id": "Ibhu"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/bind.js",
+            "size": 256,
+            "id": "JP+z"
+          },
+          {
+            "name": "./node_modules/nuxt/node_modules/es6-promise/dist/es6-promise.js",
+            "size": 28561,
+            "id": "JzPG"
+          },
+          {
+            "name": "./node_modules/axios/lib/defaults.js",
+            "size": 2316,
+            "id": "KCLY"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_wks-ext.js",
+            "size": 31,
+            "id": "Kh4W"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_task.js",
+            "size": 2484,
+            "id": "L42u"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gopd.js",
+            "size": 577,
+            "id": "LKZe"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.to-string.js",
+            "size": 0,
+            "id": "M6a0"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/array.js",
+            "size": 941,
+            "id": "MKdg"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iobject.js",
+            "size": 289,
+            "id": "MU5D"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_is-array-iter.js",
+            "size": 279,
+            "id": "Mhyx"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-primitive.js",
+            "size": 655,
+            "id": "MmMw"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/popper.js",
+            "size": 50324,
+            "id": "NMof"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_for-of.js",
+            "size": 1176,
+            "id": "NWt+"
+          },
+          {
+            "name": "./node_modules/vuex/dist/vuex.esm.js",
+            "size": 25094,
+            "id": "NYxO"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-pie.js",
+            "size": 37,
+            "id": "NpIQ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_library.js",
+            "size": 23,
+            "id": "O4g8"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/popup/popup-manager.js",
+            "size": 4921,
+            "id": "OAzY"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_dom-create.js",
+            "size": 289,
+            "id": "ON07"
+          },
+          {
+            "name": "./node_modules/throttle-debounce/debounce.js",
+            "size": 1376,
+            "id": "ON3O"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+            "size": 43,
+            "id": "OYls"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gpo.js",
+            "size": 493,
+            "id": "PzxK"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-length.js",
+            "size": 215,
+            "id": "QRG4"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es7.symbol.observable.js",
+            "size": 40,
+            "id": "QWe/"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/number.js",
+            "size": 916,
+            "id": "QsfC"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.assign.js",
+            "size": 162,
+            "id": "R4wc"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_cof.js",
+            "size": 106,
+            "id": "R9M2"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_html.js",
+            "size": 101,
+            "id": "RPLV"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/enum.js",
+            "size": 748,
+            "id": "RTRi"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_classof.js",
+            "size": 718,
+            "id": "RY/4"
+          },
+          {
+            "name": "./node_modules/is-buffer/index.js",
+            "size": 717,
+            "id": "Re3r"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gopn-ext.js",
+            "size": 604,
+            "id": "Rrel"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_fails.js",
+            "size": 104,
+            "id": "S82l"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/option.js",
+            "size": 13343,
+            "id": "STLj"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
+            "size": 199,
+            "id": "SfB7"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/locale/format.js",
+            "size": 1436,
+            "id": "SvnF"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/transformData.js",
+            "size": 550,
+            "id": "TNV1"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-iobject.js",
+            "size": 217,
+            "id": "TcQ7"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-assign.js",
+            "size": 1195,
+            "id": "To3L"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/promise.js",
+            "size": 298,
+            "id": "U5ju"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-integer.js",
+            "size": 161,
+            "id": "UuGF"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/object/assign.js",
+            "size": 107,
+            "id": "V3tA"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/locale/lang/zh-CN.js",
+            "size": 2167,
+            "id": "Vi3T"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/date.js",
+            "size": 725,
+            "id": "Vs/p"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/range.js",
+            "size": 1712,
+            "id": "Vtxq"
+          },
+          {
+            "name": "./node_modules/process/browser.js",
+            "size": 5418,
+            "id": "W2nU"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_property-desc.js",
+            "size": 173,
+            "id": "X8DO"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_enum-keys.js",
+            "size": 469,
+            "id": "Xc4G"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/Axios.js",
+            "size": 2448,
+            "id": "XmWM"
+          },
+          {
+            "name": "./node_modules/babel-runtime/regenerator/index.js",
+            "size": 49,
+            "id": "Xxa5"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-create.js",
+            "size": 1505,
+            "id": "Yobk"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/transitions/collapse-transition.js",
+            "size": 2728,
+            "id": "Zcwg"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/symbol/iterator.js",
+            "size": 96,
+            "id": "Zzip"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/tooltip.js",
+            "size": 9808,
+            "id": "aMwW"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/mixins/migrating.js",
+            "size": 1869,
+            "id": "aW5l"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_shared-key.js",
+            "size": 159,
+            "id": "ax3d"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_set-species.js",
+            "size": 435,
+            "id": "bRrM"
+          },
+          {
+            "name": "./node_modules/axios/lib/utils.js",
+            "size": 7558,
+            "id": "cGG2"
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+            "size": 1240,
+            "id": "cWxy"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/type.js",
+            "size": 3282,
+            "id": "crNL"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_wks-define.js",
+            "size": 417,
+            "id": "crlp"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+            "size": 563,
+            "id": "dIwP"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_perform.js",
+            "size": 132,
+            "id": "dNDb"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_wks.js",
+            "size": 358,
+            "id": "dSzd"
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/Cancel.js",
+            "size": 385,
+            "id": "dVOP"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iter-detect.js",
+            "size": 645,
+            "id": "dY0y"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/select.js",
+            "size": 49470,
+            "id": "e0Bm"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_set-to-string-tag.js",
+            "size": 262,
+            "id": "e6n0"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_shared.js",
+            "size": 202,
+            "id": "e8AB"
+          },
+          {
+            "name": "./node_modules/async-validator/es/util.js",
+            "size": 4437,
+            "id": "eCjd"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/date.js",
+            "size": 10527,
+            "id": "eNfa"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-dp.js",
+            "size": 600,
+            "id": "evD5"
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/asyncToGenerator.js",
+            "size": 906,
+            "id": "exGp"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/scrollbar.js",
+            "size": 11340,
+            "id": "fEB+"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_promise-resolve.js",
+            "size": 397,
+            "id": "fJUb"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/vue-popper.js",
+            "size": 5402,
+            "id": "fKx3"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/mixins/emitter.js",
+            "size": 1008,
+            "id": "fPll"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/vdom.js",
+            "size": 739,
+            "id": "fUqW"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.symbol.js",
+            "size": 8851,
+            "id": "fWfb"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/keys.js",
+            "size": 92,
+            "id": "fZjL"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+            "size": 223,
+            "id": "fkB2"
+          },
+          {
+            "name": "./node_modules/throttle-debounce/throttle.js",
+            "size": 3530,
+            "id": "uY1a"
+          },
+          {
+            "name": "multi vue vue-router vue-meta vuex axios element-ui",
+            "size": 88,
+            "id": 0
+          },
+          {
+            "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+            "size": 1251,
+            "id": "fuGk"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/get-iterator.js",
+            "size": 141,
+            "id": "fxRn"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/core.get-iterator.js",
+            "size": 296,
+            "id": "g8Ux"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/method.js",
+            "size": 861,
+            "id": "gBtb"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_string-at.js",
+            "size": 620,
+            "id": "h65t"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/index.js",
+            "size": 331,
+            "id": "hGxU"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_hide.js",
+            "size": 286,
+            "id": "hJx8"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/aria-utils.js",
+            "size": 3024,
+            "id": "hyEB"
+          },
+          {
+            "name": "./node_modules/deepmerge/dist/cjs.js",
+            "size": 3309,
+            "id": "i3rX"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/object/keys.js",
+            "size": 103,
+            "id": "jFbC"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es7.promise.try.js",
+            "size": 477,
+            "id": "jKW+"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/whitespace.js",
+            "size": 628,
+            "id": "jTu2"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/merge.js",
+            "size": 396,
+            "id": "jmaC"
+          },
+          {
+            "name": "./node_modules/async-validator/es/index.js",
+            "size": 7869,
+            "id": "jwfv"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_export.js",
+            "size": 2317,
+            "id": "kM2E"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_invoke.js",
+            "size": 701,
+            "id": "knuC"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_a-function.js",
+            "size": 125,
+            "id": "lOnJ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-keys.js",
+            "size": 222,
+            "id": "lktj"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.object.define-property.js",
+            "size": 217,
+            "id": "mClu"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iter-call.js",
+            "size": 410,
+            "id": "msXi"
+          },
+          {
+            "name": "./node_modules/axios/index.js",
+            "size": 40,
+            "id": "mtWM"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/button.js",
+            "size": 9981,
+            "id": "mtrD"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/json/stringify.js",
+            "size": 95,
+            "id": "mvHQ"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-gopn.js",
+            "size": 288,
+            "id": "n0T6"
+          },
+          {
+            "name": "./node_modules/babel-helper-vue-jsx-merge-props/index.js",
+            "size": 1272,
+            "id": "nvbp"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+            "size": 784,
+            "id": "oJlt"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/tag.js",
+            "size": 9199,
+            "id": "orbS"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/cookies.js",
+            "size": 1365,
+            "id": "p1b6"
+          },
+          {
+            "name": "./node_modules/vue-meta/lib/vue-meta.js",
+            "size": 33075,
+            "id": "p3jY"
+          },
+          {
+            "name": "./node_modules/axios/lib/cancel/isCancel.js",
+            "size": 102,
+            "id": "pBtG"
+          },
+          {
+            "name": "./node_modules/babel-runtime/helpers/typeof.js",
+            "size": 1069,
+            "id": "pFYg"
+          },
+          {
+            "name": "./node_modules/async-validator/es/rule/pattern.js",
+            "size": 1241,
+            "id": "pmgl"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/spread.js",
+            "size": 564,
+            "id": "pxG4"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_new-promise-capability.js",
+            "size": 504,
+            "id": "qARP"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+            "size": 380,
+            "id": "qRfI"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-dps.js",
+            "size": 404,
+            "id": "qio6"
+          },
+          {
+            "name": "./node_modules/core-js/library/fn/json/stringify.js",
+            "size": 246,
+            "id": "qkKv"
+          },
+          {
+            "name": "./node_modules/async-validator/es/validator/integer.js",
+            "size": 932,
+            "id": "rKrQ"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/checkbox-group.js",
+            "size": 9534,
+            "id": "s3ue"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_to-object.js",
+            "size": 132,
+            "id": "sB3e"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/enhanceError.js",
+            "size": 592,
+            "id": "t8qj"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_species-constructor.js",
+            "size": 348,
+            "id": "t8x9"
+          },
+          {
+            "name": "./node_modules/axios/lib/axios.js",
+            "size": 1368,
+            "id": "tIFN"
+          },
+          {
+            "name": "./node_modules/axios/lib/helpers/btoa.js",
+            "size": 986,
+            "id": "thJu"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_object-sap.js",
+            "size": 370,
+            "id": "uqUo"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/locale/index.js",
+            "size": 1716,
+            "id": "urW8"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_array-includes.js",
+            "size": 924,
+            "id": "vFc/"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_iter-define.js",
+            "size": 2805,
+            "id": "vIB/"
+          },
+          {
+            "name": "./node_modules/babel-runtime/core-js/object/assign.js",
+            "size": 94,
+            "id": "woOf"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.array.iterator.js",
+            "size": 1116,
+            "id": "xGkn"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_redefine-all.js",
+            "size": 217,
+            "id": "xH/j"
+          },
+          {
+            "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+            "size": 1940,
+            "id": "xLtR"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
+            "size": 160,
+            "id": "xnc9"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/mixins/locale.js",
+            "size": 341,
+            "id": "y+7x"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/util.js",
+            "size": 2109,
+            "id": "ylDJ"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/button-group.js",
+            "size": 8496,
+            "id": "zAL+"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/element-ui.common.js",
+            "size": 912954,
+            "id": "zL8q"
+          },
+          {
+            "name": "./node_modules/core-js/library/modules/es6.string.iterator.js",
+            "size": 531,
+            "id": "zQR9"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/utils/scroll-into-view.js",
+            "size": 763,
+            "id": "zTCi"
+          }
+        ]
+      },
+      {
+        "size": 1298406,
+        "files": [
+          "app.3195530e98853a3cfa67.js",
+          "app.3195530e98853a3cfa67.js.map"
+        ],
+        "modules": [
+          {
+            "name": "./node_modules/moment/locale/gom-latn.js",
+            "size": 4097,
+            "id": "+27R"
+          },
+          {
+            "name": "./node_modules/moment/locale/ta.js",
+            "size": 3777,
+            "id": "+7/x"
+          },
+          {
+            "name": "./node_modules/moment/locale/lt.js",
+            "size": 4061,
+            "id": "/6P1"
+          },
+          {
+            "name": "./node_modules/moment/locale/uz-latn.js",
+            "size": 1912,
+            "id": "/bsm"
+          },
+          {
+            "name": "./node_modules/moment/locale/ne.js",
+            "size": 3390,
+            "id": "/mhn"
+          },
+          {
+            "name": "./.nuxt/components/no-ssr.js",
+            "size": 647,
+            "id": "0F0d"
+          },
+          {
+            "name": "./node_modules/moment/locale/vi.js",
+            "size": 2469,
+            "id": "0X8Q"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./.nuxt/components/nuxt-error.vue",
+            "size": 561,
+            "id": "2Sth"
+          },
+          {
+            "name": "./node_modules/moment/locale/fa.js",
+            "size": 2926,
+            "id": "2pmY"
+          },
+          {
+            "name": "./node_modules/moment/locale/sl.js",
+            "size": 5938,
+            "id": "2s1U"
+          },
+          {
+            "name": "./node_modules/moment/locale/af.js",
+            "size": 2400,
+            "id": "3CJN"
+          },
+          {
+            "name": "(webpack)/buildin/module.js",
+            "size": 517,
+            "id": "3IRH"
+          },
+          {
+            "name": "./node_modules/moment/locale/nl.js",
+            "size": 3255,
+            "id": "3K28"
+          },
+          {
+            "name": "./node_modules/moment/locale/tl-ph.js",
+            "size": 2013,
+            "id": "3LKG"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar.js",
+            "size": 4092,
+            "id": "3MVc"
+          },
+          {
+            "name": "./node_modules/moment/locale/be.js",
+            "size": 4485,
+            "id": "3hfc"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-21beefa8\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./.nuxt/components/nuxt-error.vue",
+            "size": 1081,
+            "id": "5Kpj"
+          },
+          {
+            "name": "./node_modules/moment/locale/se.js",
+            "size": 2062,
+            "id": "5Omq"
+          },
+          {
+            "name": "./node_modules/moment/locale/km.js",
+            "size": 1857,
+            "id": "5j66"
+          },
+          {
+            "name": "./node_modules/nuxt/node_modules/es6-promise/auto.js",
+            "size": 179,
+            "id": "5o+h"
+          },
+          {
+            "name": "./node_modules/moment/locale/mr.js",
+            "size": 4838,
+            "id": "5vPg"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-2418a2dc\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./.nuxt/components/nuxt-loading.vue",
+            "size": 416,
+            "id": "69WK"
+          },
+          {
+            "name": "./node_modules/moment/locale/ky.js",
+            "size": 2417,
+            "id": "6cf8"
+          },
+          {
+            "name": "./node_modules/moment/locale/pl.js",
+            "size": 4164,
+            "id": "7LV+"
+          },
+          {
+            "name": "./node_modules/moment/locale/es-do.js",
+            "size": 3467,
+            "id": "7MHZ"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-sa.js",
+            "size": 2813,
+            "id": "7OnE"
+          },
+          {
+            "name": "./node_modules/moment/locale/ss.js",
+            "size": 2839,
+            "id": "7Q8x"
+          },
+          {
+            "name": "./node_modules/moment/locale/de-at.js",
+            "size": 2799,
+            "id": "8v14"
+          },
+          {
+            "name": "./node_modules/moment/locale/en-ie.js",
+            "size": 2183,
+            "id": "ALEw"
+          },
+          {
+            "name": "./node_modules/moment/locale/mk.js",
+            "size": 2866,
+            "id": "Ab7C"
+          },
+          {
+            "name": "./node_modules/moment/locale/pt-br.js",
+            "size": 2086,
+            "id": "AoDM"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-tn.js",
+            "size": 1857,
+            "id": "BEem"
+          },
+          {
+            "name": "./node_modules/moment/locale/zh-tw.js",
+            "size": 2978,
+            "id": "BbgG"
+          },
+          {
+            "name": "./node_modules/good-listener/src/listen.js",
+            "size": 2388,
+            "id": "Bj/7"
+          },
+          {
+            "name": "./node_modules/moment/locale/nl-be.js",
+            "size": 3275,
+            "id": "Bp2f"
+          },
+          {
+            "name": "./node_modules/moment/locale/nn.js",
+            "size": 1916,
+            "id": "C7av"
+          },
+          {
+            "name": "./node_modules/moment/locale/el.js",
+            "size": 3519,
+            "id": "CFqe"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-483fd2ed\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./.nuxt/components/nuxt.vue",
+            "size": 319,
+            "id": "CjxF"
+          },
+          {
+            "name": "./node_modules/moment/locale/de.js",
+            "size": 2724,
+            "id": "DOkx"
+          },
+          {
+            "name": "./node_modules/moment/locale/sw.js",
+            "size": 1915,
+            "id": "DSXN"
+          },
+          {
+            "name": "./node_modules/moment/locale/hi.js",
+            "size": 3460,
+            "id": "ETHv"
+          },
+          {
+            "name": "./node_modules/moment/locale/my.js",
+            "size": 2552,
+            "id": "F+2e"
+          },
+          {
+            "name": "./.nuxt/components/nuxt-loading.vue",
+            "size": 1677,
+            "id": "F88d"
+          },
+          {
+            "name": "./node_modules/moment/locale/it.js",
+            "size": 2257,
+            "id": "FKXc"
+          },
+          {
+            "name": "./node_modules/moment/locale/tzm.js",
+            "size": 1890,
+            "id": "FRPF"
+          },
+          {
+            "name": "./node_modules/css-loader/lib/css-base.js",
+            "size": 2260,
+            "id": "FZ+f"
+          },
+          {
+            "name": "./node_modules/moment/locale/nb.js",
+            "size": 2059,
+            "id": "FlzV"
+          },
+          {
+            "name": "./node_modules/moment/locale/sv.js",
+            "size": 2195,
+            "id": "Fpqq"
+          },
+          {
+            "name": "./node_modules/moment/locale/de-ch.js",
+            "size": 2730,
+            "id": "Frex"
+          },
+          {
+            "name": "./node_modules/moment/locale/gl.js",
+            "size": 2569,
+            "id": "FuaP"
+          },
+          {
+            "name": "./node_modules/moment/locale/ms-my.js",
+            "size": 2631,
+            "id": "G++c"
+          },
+          {
+            "name": "./node_modules/moment/locale/hy-am.js",
+            "size": 2953,
+            "id": "GrS7"
+          },
+          {
+            "name": "./.nuxt/components/nuxt-child.js",
+            "size": 1549,
+            "id": "HBB+"
+          },
+          {
+            "name": "./plugins/moment.js",
+            "size": 154,
+            "id": "Hglz"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-e97854dc\",\"hasScoped\":false,\"preserveWhitespace\":false}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./.nuxt/App.vue",
+            "size": 367,
+            "id": "IJar"
+          },
+          {
+            "name": "./node_modules/moment/locale/es-us.js",
+            "size": 2800,
+            "id": "INcR"
+          },
+          {
+            "name": "./.nuxt/store.js",
+            "size": 3039,
+            "id": "J2Ti"
+          },
+          {
+            "name": "./node_modules/delegate/src/closest.js",
+            "size": 864,
+            "id": "Jssu"
+          },
+          {
+            "name": "./node_modules/moment/locale/jv.js",
+            "size": 2681,
+            "id": "JwiF"
+          },
+          {
+            "name": "./node_modules/clipboard/lib/clipboard-action.js",
+            "size": 8224,
+            "id": "LF/X"
+          },
+          {
+            "name": "./plugins/clipboard.js",
+            "size": 166,
+            "id": "LGLb"
+          },
+          {
+            "name": "./node_modules/moment/locale/es.js",
+            "size": 3490,
+            "id": "LT9G"
+          },
+          {
+            "name": "./node_modules/moment/locale/si.js",
+            "size": 2220,
+            "id": "Lgqo"
+          },
+          {
+            "name": "./node_modules/moment/locale/cv.js",
+            "size": 2151,
+            "id": "N3vo"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./.nuxt/components/nuxt-loading.vue",
+            "size": 1863,
+            "id": "N8AV"
+          },
+          {
+            "name": "./node_modules/moment/locale/eo.js",
+            "size": 2441,
+            "id": "Nd3h"
+          },
+          {
+            "name": "./node_modules/moment/locale/te.js",
+            "size": 2814,
+            "id": "Nlnz"
+          },
+          {
+            "name": "./node_modules/moment/locale/he.js",
+            "size": 3092,
+            "id": "Nzt2"
+          },
+          {
+            "name": "./node_modules/moment/locale/ja.js",
+            "size": 2131,
+            "id": "ORgI"
+          },
+          {
+            "name": "./node_modules/moment/locale/br.js",
+            "size": 3123,
+            "id": "OSsP"
+          },
+          {
+            "name": "./node_modules/moment/locale/sk.js",
+            "size": 5265,
+            "id": "OUMt"
+          },
+          {
+            "name": "./node_modules/moment/locale/fo.js",
+            "size": 1938,
+            "id": "OVPi"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./.nuxt/App.vue",
+            "size": 2705,
+            "id": "Og40"
+          },
+          {
+            "name": "./node_modules/moment/moment.js",
+            "size": 130279,
+            "id": "PJh5"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/postcss-loader/lib?{\"sourceMap\":false,\"plugins\":[null,null,{\"version\":\"6.0.13\",\"plugins\":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\"postcssPlugin\":\"postcss-cssnext\",\"postcssVersion\":\"6.0.13\"}]}!./node_modules/element-ui/lib/theme-chalk/index.css",
+            "size": 190568,
+            "id": "PbGm"
+          },
+          {
+            "name": "./node_modules/moment/locale/ka.js",
+            "size": 2867,
+            "id": "RnJI"
+          },
+          {
+            "name": "./node_modules/select/src/select.js",
+            "size": 1026,
+            "id": "SPM9"
+          },
+          {
+            "name": "./node_modules/moment/locale/en-au.js",
+            "size": 2179,
+            "id": "Sjoy"
+          },
+          {
+            "name": "./node_modules/regenerator-runtime/runtime.js",
+            "size": 24431,
+            "id": "SldL"
+          },
+          {
+            "name": "./.nuxt/client.js",
+            "size": 20090,
+            "id": "T23V"
+          },
+          {
+            "name": "./node_modules/moment/locale/en-ca.js",
+            "size": 2025,
+            "id": "Tqun"
+          },
+          {
+            "name": "./node_modules/moment/locale/sq.js",
+            "size": 2237,
+            "id": "V0td"
+          },
+          {
+            "name": "./node_modules/clipboard/lib/clipboard.js",
+            "size": 7451,
+            "id": "V33R"
+          },
+          {
+            "name": "./node_modules/moment/locale/hr.js",
+            "size": 4603,
+            "id": "V4qH"
+          },
+          {
+            "name": "./node_modules/moment/locale/fr-ch.js",
+            "size": 2519,
+            "id": "VK9h"
+          },
+          {
+            "name": "./node_modules/vue-loader/lib/component-normalizer.js",
+            "size": 2549,
+            "id": "VU/8"
+          },
+          {
+            "name": "./node_modules/moment/locale/zh-cn.js",
+            "size": 3208,
+            "id": "Vz2w"
+          },
+          {
+            "name": "./.nuxt/components/nuxt-link.js",
+            "size": 231,
+            "id": "WRRc"
+          },
+          {
+            "name": "./node_modules/tiny-emitter/index.js",
+            "size": 1565,
+            "id": "WreF"
+          },
+          {
+            "name": "./node_modules/moment/locale/uz.js",
+            "size": 1865,
+            "id": "XU1s"
+          },
+          {
+            "name": "./node_modules/moment/locale/et.js",
+            "size": 2903,
+            "id": "XlWM"
+          },
+          {
+            "name": "./node_modules/moment/locale/th.js",
+            "size": 2137,
+            "id": "XzD+"
+          },
+          {
+            "name": "./node_modules/moment/locale/da.js",
+            "size": 1909,
+            "id": "YBA/"
+          },
+          {
+            "name": "./.nuxt/utils.js",
+            "size": 11385,
+            "id": "YLfZ"
+          },
+          {
+            "name": "./node_modules/moment/locale/yo.js",
+            "size": 1994,
+            "id": "YXlc"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-2418a2dc\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./.nuxt/components/nuxt-loading.vue",
+            "size": 356,
+            "id": "ZD5T"
+          },
+          {
+            "name": "./node_modules/delegate/src/delegate.js",
+            "size": 1001,
+            "id": "ZE5A"
+          },
+          {
+            "name": "./node_modules/moment/locale/cy.js",
+            "size": 2747,
+            "id": "ZFGz"
+          },
+          {
+            "name": "./node_modules/moment/locale/zh-hk.js",
+            "size": 3031,
+            "id": "ZUyn"
+          },
+          {
+            "name": "./node_modules/moment/locale/pt.js",
+            "size": 2154,
+            "id": "ZoSI"
+          },
+          {
+            "name": "./node_modules/moment/locale/bn.js",
+            "size": 3217,
+            "id": "aM0x"
+          },
+          {
+            "name": "./node_modules/moment/locale/bs.js",
+            "size": 4481,
+            "id": "aqvp"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-21beefa8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./.nuxt/components/nuxt-error.vue",
+            "size": 878,
+            "id": "b7Y0"
+          },
+          {
+            "name": "./node_modules/moment/locale/fr-ca.js",
+            "size": 2357,
+            "id": "bXQP"
+          },
+          {
+            "name": "./node_modules/moment/locale/sr-cyrl.js",
+            "size": 3784,
+            "id": "c1x4"
+          },
+          {
+            "name": "./.nuxt/components/nuxt.vue",
+            "size": 1092,
+            "id": "cs8z"
+          },
+          {
+            "name": "./.nuxt/components/nuxt-error.vue",
+            "size": 1671,
+            "id": "ct3O"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-ma.js",
+            "size": 1946,
+            "id": "dURR"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.woff?t=1510834658947",
+            "size": 78,
+            "id": "df5A"
+          },
+          {
+            "name": "./node_modules/moment/locale/en-nz.js",
+            "size": 2188,
+            "id": "dyB6"
+          },
+          {
+            "name": "./node_modules/moment/locale/x-pseudo.js",
+            "size": 2302,
+            "id": "e/KL"
+          },
+          {
+            "name": "./node_modules/moment/locale/ko.js",
+            "size": 2313,
+            "id": "eBB/"
+          },
+          {
+            "name": "./node_modules/moment/locale/az.js",
+            "size": 3010,
+            "id": "eHwN"
+          },
+          {
+            "name": "./node_modules/moment/locale/sr.js",
+            "size": 3762,
+            "id": "f4W3"
+          },
+          {
+            "name": "./node_modules/moment/locale/sd.js",
+            "size": 2235,
+            "id": "fW1y"
+          },
+          {
+            "name": "./node_modules/moment/locale/fy.js",
+            "size": 2497,
+            "id": "g7KF"
+          },
+          {
+            "name": "./node_modules/moment/locale/kn.js",
+            "size": 3501,
+            "id": "gEQe"
+          },
+          {
+            "name": "./node_modules/moment/locale/mi.js",
+            "size": 2230,
+            "id": "gEU3"
+          },
+          {
+            "name": "./node_modules/moment/locale/tet.js",
+            "size": 2255,
+            "id": "gUgh"
+          },
+          {
+            "name": "./.nuxt/App.vue",
+            "size": 1078,
+            "id": "gXG+"
+          },
+          {
+            "name": "./plugins/element-ui.js",
+            "size": 144,
+            "id": "gg5B"
+          },
+          {
+            "name": "./node_modules/moment/locale/en-gb.js",
+            "size": 2185,
+            "id": "hPuz"
+          },
+          {
+            "name": "./node_modules/moment/locale/bm.js",
+            "size": 2042,
+            "id": "hng5"
+          },
+          {
+            "name": "./node_modules/good-listener/src/is.js",
+            "size": 1067,
+            "id": "iDEd"
+          },
+          {
+            "name": "./node_modules/moment/locale/tzl.js",
+            "size": 3307,
+            "id": "iNtv"
+          },
+          {
+            "name": "./node_modules/moment/locale/kk.js",
+            "size": 2408,
+            "id": "j+vx"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-kw.js",
+            "size": 1887,
+            "id": "j8cJ"
+          },
+          {
+            "name": "./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-21beefa8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./.nuxt/components/nuxt-error.vue",
+            "size": 1096,
+            "id": "jYAg"
+          },
+          {
+            "name": "./node_modules/moment/locale/lv.js",
+            "size": 3607,
+            "id": "jxEH"
+          },
+          {
+            "name": "./node_modules/regenerator-runtime/runtime-module.js",
+            "size": 1006,
+            "id": "jyFz"
+          },
+          {
+            "name": "./node_modules/moment/locale/tr.js",
+            "size": 2618,
+            "id": "k+5o"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/theme-chalk/fonts/element-icons.ttf?t=1510834658947",
+            "size": 77,
+            "id": "kRGN"
+          },
+          {
+            "name": "./store ^\\.\\/.*\\.(js|ts)$",
+            "size": 160,
+            "id": "kRpp"
+          },
+          {
+            "name": "./node_modules/moment/locale/tzm-latn.js",
+            "size": 1930,
+            "id": "krPU"
+          },
+          {
+            "name": "./node_modules/moment/locale/bg.js",
+            "size": 2852,
+            "id": "lOED"
+          },
+          {
+            "name": "./node_modules/moment/locale/tlh.js",
+            "size": 3750,
+            "id": "m7yE"
+          },
+          {
+            "name": "./.nuxt/router.js",
+            "size": 2753,
+            "id": "mtxM"
+          },
+          {
+            "name": "./node_modules/moment/locale/lo.js",
+            "size": 2117,
+            "id": "nE8X"
+          },
+          {
+            "name": "./node_modules/moment/locale/gd.js",
+            "size": 2412,
+            "id": "nLOz"
+          },
+          {
+            "name": "./node_modules/moment/locale/fi.js",
+            "size": 3622,
+            "id": "nS2h"
+          },
+          {
+            "name": "./node_modules/moment/locale/uk.js",
+            "size": 5043,
+            "id": "ntHu"
+          },
+          {
+            "name": "./node_modules/moment/locale/ml.js",
+            "size": 2555,
+            "id": "oo1B"
+          },
+          {
+            "name": "./node_modules/moment/locale/ms.js",
+            "size": 2574,
+            "id": "ooba"
+          },
+          {
+            "name": "./middleware nonrecursive ^\\.\\/.*\\.(js|ts)$",
+            "size": 160,
+            "id": "p5rU"
+          },
+          {
+            "name": "./node_modules/moment/locale/pa-in.js",
+            "size": 3592,
+            "id": "pfs9"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/index.js",
+            "size": 496839,
+            "id": "qBF2"
+          },
+          {
+            "name": "./.nuxt/index.js",
+            "size": 8164,
+            "id": "qcny"
+          },
+          {
+            "name": "./node_modules/babel-loader/lib?{\"plugins\":[[\"component\",[{\"libraryName\":\"element-ui\",\"styleLibraryName\":\"theme-chalk\"}]]],\"babelrc\":false,\"cacheDirectory\":false,\"presets\":[\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/node_modules/babel-preset-vue-app/dist/index.common.js\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./.nuxt/components/nuxt.vue",
+            "size": 786,
+            "id": "r1Dm"
+          },
+          {
+            "name": "./node_modules/moment/locale/dv.js",
+            "size": 2373,
+            "id": "rIuo"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/addStylesClient.js",
+            "size": 6055,
+            "id": "rjj0"
+          },
+          {
+            "name": "./node_modules/moment/locale/gu.js",
+            "size": 3560,
+            "id": "rtsW"
+          },
+          {
+            "name": "./node_modules/moment/locale/eu.js",
+            "size": 2204,
+            "id": "sqLM"
+          },
+          {
+            "name": "./node_modules/moment/locale/cs.js",
+            "size": 6113,
+            "id": "ssxj"
+          },
+          {
+            "name": "./node_modules/moment/locale/me.js",
+            "size": 3785,
+            "id": "svD2"
+          },
+          {
+            "name": "./node_modules/vue-style-loader/lib/listToStyles.js",
+            "size": 639,
+            "id": "tTVk"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-dz.js",
+            "size": 1904,
+            "id": "tkWw"
+          },
+          {
+            "name": "./node_modules/element-ui/lib/theme-chalk/index.css",
+            "size": 464,
+            "id": "tvR6"
+          },
+          {
+            "name": "./node_modules/moment/locale/fr.js",
+            "size": 2744,
+            "id": "tzHd"
+          },
+          {
+            "name": "./node_modules/moment/locale/ur.js",
+            "size": 2282,
+            "id": "uSe8"
+          },
+          {
+            "name": "./node_modules/moment/locale/ru.js",
+            "size": 6871,
+            "id": "ulq9"
+          },
+          {
+            "name": "./.nuxt/middleware.js",
+            "size": 1102,
+            "id": "unZF"
+          },
+          {
+            "name": "./node_modules/moment/locale/is.js",
+            "size": 4210,
+            "id": "upln"
+          },
+          {
+            "name": "./node_modules/moment/locale ^\\.\\/.*$",
+            "size": 2858,
+            "id": "uslO"
+          },
+          {
+            "name": "./node_modules/moment/locale/bo.js",
+            "size": 3471,
+            "id": "w2Hs"
+          },
+          {
+            "name": "./node_modules/moment/locale/ca.js",
+            "size": 3067,
+            "id": "wIgY"
+          },
+          {
+            "name": "./node_modules/moment/locale/ar-ly.js",
+            "size": 3689,
+            "id": "wPpW"
+          },
+          {
+            "name": "./node_modules/moment/locale/ro.js",
+            "size": 2384,
+            "id": "wT5f"
+          },
+          {
+            "name": "./node_modules/vue-style-loader?{\"sourceMap\":false}!./node_modules/css-loader?{\"minimize\":true,\"importLoaders\":1,\"sourceMap\":false,\"alias\":{\"/static\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/static\",\"/assets\":\"/Users/jweboy/GitRepo/node-express-nuxt-mongodb-boilerplate/assets\"}}!./node_modules/vue-loader/lib/style-compiler?{\"vue\":true,\"id\":\"data-v-2418a2dc\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./.nuxt/components/nuxt-loading.vue",
+            "size": 880,
+            "id": "xhnn"
+          },
+          {
+            "name": "./node_modules/moment/locale/hu.js",
+            "size": 3737,
+            "id": "xne+"
+          },
+          {
+            "name": "./node_modules/moment/locale/id.js",
+            "size": 2672,
+            "id": "yRTJ"
+          },
+          {
+            "name": "./node_modules/moment/locale/lb.js",
+            "size": 4464,
+            "id": "z3hR"
+          },
+          {
+            "name": "./.nuxt/axios.js",
+            "size": 4132,
+            "id": "zQW4"
+          }
+        ]
+      },
+      {
+        "size": 0,
+        "files": [
+          "manifest.5154b6462d72ae080972.js",
+          "manifest.5154b6462d72ae080972.js.map"
+        ],
+        "modules": []
+      }
+    ]
+  }
+]
