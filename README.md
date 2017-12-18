@@ -2,7 +2,7 @@
 
 [![codebeat badge](https://codebeat.co/badges/f528ee2e-0892-457b-886f-4fa74ff4ed2a)](https://codebeat.co/projects/github-com-jweboy-node-express-nuxt-mongodb-boilerplate-feature-dev)
 
-> Nuxt.js project
+> Nuxt.js project => just for test
 
 ## Build Setup
 
